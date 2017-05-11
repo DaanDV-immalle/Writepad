@@ -10,12 +10,17 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/', function () {    
+    return view('welcome');
+});
 
-Route::get('/{key}', function ($key) {
-    
-    
+Route::get('/notes/{key}', function ($key) {    
     return view('writepad', [
         'key' => $key,
         'content' => "hardcoded"
     ]);
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
