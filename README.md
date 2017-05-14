@@ -10,10 +10,10 @@ Hierin kan je zetten wat je wil en aan de hand van de code kan je ze later terug
 - clone deze repository
 - zorg dat je alle benodigde onderdelen voor Laravel hebt geïnstalleerd (Php, mySQL, Composer, etc.)
 - zorg ervoor dat je de .env file op de juiste database settings zet
-- de notitiepagina van deze app staat op localhost:8000**/notes/unieke_code**
+- de notitiepagina van deze app staat op localhost:8000 **/notes/unieke_code**
 
 ### Opmerking
 
 De app is nog niet volledig af en werkend maar zal nog worden verbeterd.
 
-*Veel plezier met de*`code`
+Veel plezier met de `code`
