@@ -14,10 +14,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/notes/{key}', function ($key) {    
+
+Route::get('/notes/{key}', function ($key) {  
+    $content = DB::table('notedata')->where('key', '1')->value('value');  
     return view('writepad', [
         'key' => $key,
-        'content' => "hardcoded"
+        'content' => $content
     ]);
 });
 
