@@ -1,4 +1,4 @@
-<div style="text-align:center;height:100px;"><img src ="http://logos-download.com/wp-content/uploads/2016/09/Laravel_logo.png" /></div>
+<div style="text-align:center;"><img style="height:100px;"src="http://logos-download.com/wp-content/uploads/2016/09/Laravel_logo.png" /></div>
 
 # Welkom op de repository van mijn Web app!
 
